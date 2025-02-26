@@ -15,9 +15,16 @@
     </style>
   </head>
   <body>
-    <h3>Screen Blur Adjuster</h3>
-    <input type="range" id="blurRange" min="0" max="10" step="0.1" />
-    <p>Blur: <span id="blurValue">0</span> px</p>
+    <h2>Screen Blur Adjuster</h2>
+
+    <label>Left Eye Blur</label>
+    <input type="range" id="leftEyeBlur" min="0" max="10" step="0.5" />
+    <span id="leftBlurValue">0px</span>
+
+    <label>Right Eye Blur</label>
+    <input type="range" id="rightEyeBlur" min="0" max="10" step="0.5" />
+    <span id="rightBlurValue">0px</span>
+
     <script src="popup.js"></script>
   </body>
 </html>
