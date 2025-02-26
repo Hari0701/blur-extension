@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blur Adjuster</title>
+    <style>
+      body {
+        width: 200px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      input {
+        width: 80%;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Screen Blur Adjuster</h3>
+    <input type="range" id="blurRange" min="0" max="10" step="0.1" />
+    <p>Blur: <span id="blurValue">0</span> px</p>
+    <script src="popup.js"></script>
+  </body>
+</html>
